@@ -13,6 +13,7 @@
 		F5BE781F24D7442E00B3D72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BE781D24D7442E00B3D72D /* Main.storyboard */; };
 		F5BE782124D7443100B3D72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BE782024D7443100B3D72D /* Assets.xcassets */; };
 		F5BE782424D7443100B3D72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BE782224D7443100B3D72D /* LaunchScreen.storyboard */; };
+		F5BE782E24D744E300B3D72D /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F5BE782D24D744E300B3D72D /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F5BE782024D7443100B3D72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5BE782324D7443100B3D72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5BE782524D7443100B3D72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BE782D24D744E300B3D72D /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				F5BE781724D7442E00B3D72D /* AppDelegate.swift */,
-				F5BE781924D7442E00B3D72D /* SceneDelegate.swift */,
 				F5BE781B24D7442E00B3D72D /* ViewController.swift */,
+				F5BE781924D7442E00B3D72D /* SceneDelegate.swift */,
 				F5BE781D24D7442E00B3D72D /* Main.storyboard */,
 				F5BE782024D7443100B3D72D /* Assets.xcassets */,
 				F5BE782224D7443100B3D72D /* LaunchScreen.storyboard */,
 				F5BE782524D7443100B3D72D /* Info.plist */,
+				F5BE782D24D744E300B3D72D /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5BE781C24D7442E00B3D72D /* ViewController.swift in Sources */,
+				F5BE782E24D744E300B3D72D /* Inceptionv3.mlmodel in Sources */,
 				F5BE781824D7442E00B3D72D /* AppDelegate.swift in Sources */,
 				F5BE781A24D7442E00B3D72D /* SceneDelegate.swift in Sources */,
 			);
